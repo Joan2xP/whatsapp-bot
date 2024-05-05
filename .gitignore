@@ -1,1 +1,6 @@
 /pyenv/
+*lock*
+*.ods
+!example_*.ods
+__pycache__/
+.env

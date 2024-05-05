@@ -1,1 +1,16 @@
-# whatsapp-bot
+# WhatsApp Bot
+
+A script I made with Playwright to send WhatsApp images in bulk.
+
+## Usage
+
+To send the messages, a .ods file containing contacts, another .ods file containing users to send messages and text to put in the final image are needed, add them in a .env. Example files are provided.
+
+## Technologies
+
+- Playwright: Used to interact with WhatsApp Web.
+- PIL: Utilized for creating images from text.
+
+## Unique Traces
+
+I aimed to interact with WhatsApp Web as quickly as possible, without relying on uncertain timers. Instead, I used triggers to advance to the next action promptly without unnecessary delays or failures.
