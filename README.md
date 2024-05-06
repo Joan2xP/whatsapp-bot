@@ -11,6 +11,11 @@ You need to install pip packages:
 ```
 pip install -r requirements.txt
 ```
+
+To exec the script, after adding your .env do:
+```
+python main.py
+```
 > [!IMPORTANT]
 > This script only works in spanish WhatsApp web, some DOM elements are selected by their text
 ## Technologies
