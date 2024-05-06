@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
 import re
 import os
-from sendmsgs import exec
+from sendmsgs import send_messages
 from dotenv import load_dotenv
 
 # Load the .env file
@@ -146,7 +146,7 @@ def main():
     users = get_users(FILE_USERS_PATH)
     messages = create_messages(FILE_DATA_PATH, users)
     
-    exec(messages)
+    send_messages(messages)
     os.system("rm *.png")
     
 

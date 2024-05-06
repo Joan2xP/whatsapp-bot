@@ -43,7 +43,7 @@ def run(playwright: Playwright, data: list[dict[str,str]]) -> None:
     context.close()
     browser.close()
 
-def exec(messages):
+def send_messages(messages):
     with sync_playwright() as playwright:
         run(playwright, messages) 
 
