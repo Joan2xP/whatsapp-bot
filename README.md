@@ -4,7 +4,13 @@ A script I made with Playwright to send WhatsApp images in bulk.
 
 ## Usage
 
-To send the messages, a .ods file containing contacts, another .ods file containing users to send messages and text to put in the final image are needed, add them in a .env. Example files are provided.
+To send the messages, a .ods file containing contacts, another .ods file containing users to send messages and text to put in the final image are needed, add them in a .env. There are example files.
+
+You need to install the pip packages:
+
+```
+pip install -r requirements.txt
+```
 
 ## Technologies
 
