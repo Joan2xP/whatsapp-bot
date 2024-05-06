@@ -20,3 +20,6 @@ pip install -r requirements.txt
 ## Unique Traces
 
 I aimed to interact with WhatsApp Web as quickly as possible, without relying on uncertain timers. Instead, I used triggers to advance to the next action promptly without unnecessary delays or failures.
+
+[!IMPORTANT]
+This script only works in spanish WhatsApp web, some DOM elements are selected by their text
